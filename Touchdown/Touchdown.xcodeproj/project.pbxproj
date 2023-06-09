@@ -25,6 +25,8 @@
 		7253DFA32A33190500E5DE81 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA22A33190500E5DE81 /* CategoryGridView.swift */; };
 		7253DFA52A331AAC00E5DE81 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA42A331AAC00E5DE81 /* SectionView.swift */; };
 		7253DFA72A3325B100E5DE81 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA62A3325B100E5DE81 /* TitleView.swift */; };
+		7253DFAA2A33277700E5DE81 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA92A33277700E5DE81 /* ProductModel.swift */; };
+		7253DFAC2A33280B00E5DE81 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFAB2A33280B00E5DE81 /* ProductItemView.swift */; };
 		725BF10E2A323DED00DA6A22 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF10D2A323DED00DA6A22 /* LaunchScreenView.swift */; };
 		725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF10F2A32D42500DA6A22 /* PlayerModel.swift */; };
 		725BF1122A32D48600DA6A22 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */; };
@@ -52,6 +54,8 @@
 		7253DFA22A33190500E5DE81 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
 		7253DFA42A331AAC00E5DE81 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		7253DFA62A3325B100E5DE81 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		7253DFA92A33277700E5DE81 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		7253DFAB2A33280B00E5DE81 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 		725BF10D2A323DED00DA6A22 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		725BF10F2A32D42500DA6A22 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 				7253DFA22A33190500E5DE81 /* CategoryGridView.swift */,
 				7253DFA42A331AAC00E5DE81 /* SectionView.swift */,
 				7253DFA62A3325B100E5DE81 /* TitleView.swift */,
+				7253DFAB2A33280B00E5DE81 /* ProductItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				725BF10F2A32D42500DA6A22 /* PlayerModel.swift */,
 				7253DF9E2A3315D600E5DE81 /* CatagoryModel.swift */,
+				7253DFA92A33277700E5DE81 /* ProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,11 +270,13 @@
 				7253DFA32A33190500E5DE81 /* CategoryGridView.swift in Sources */,
 				7212A7B22A320F1A0059624F /* ContentView.swift in Sources */,
 				7253DFA52A331AAC00E5DE81 /* SectionView.swift in Sources */,
+				7253DFAA2A33277700E5DE81 /* ProductModel.swift in Sources */,
 				7212A7DF2A3222D20059624F /* LogoView.swift in Sources */,
 				725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */,
 				725BF10E2A323DED00DA6A22 /* LaunchScreenView.swift in Sources */,
 				7212A7DB2A321D250059624F /* FooterView.swift in Sources */,
 				7253DFA72A3325B100E5DE81 /* TitleView.swift in Sources */,
+				7253DFAC2A33280B00E5DE81 /* ProductItemView.swift in Sources */,
 				7212A7B02A320F1A0059624F /* TouchdownApp.swift in Sources */,
 				7253DF9D2A330FA200E5DE81 /* FeaturedTabView.swift in Sources */,
 				7212A7D92A321C2B0059624F /* Constant.swift in Sources */,

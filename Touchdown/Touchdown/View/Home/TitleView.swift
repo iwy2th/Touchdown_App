@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct TitleView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+  // MARK: - PROPERTIES
+  var title: String
+  // MARK: - BODY
+  var body: some View {
+    HStack {
+      Text(title)
+        .font(.largeTitle)
+        .fontWeight(.heavy)
+      Spacer()
+    }//: HSTACK
+    .padding(.horizontal)
+    .padding(.top, 15)
+    .padding(.bottom, 10)
 
+  }
+}
+// MARK: - PREVIEW
 struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleView()
+      TitleView(title: "Helmet")
+        .previewLayout(.sizeThatFits)
+        .background(colorBackground)
     }
 }
