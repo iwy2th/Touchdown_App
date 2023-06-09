@@ -20,6 +20,11 @@
 		7253DF992A330EAC00E5DE81 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 7253DF952A330EAC00E5DE81 /* brand.json */; };
 		7253DF9A2A330EAC00E5DE81 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 7253DF962A330EAC00E5DE81 /* player.json */; };
 		7253DF9D2A330FA200E5DE81 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DF9C2A330FA200E5DE81 /* FeaturedTabView.swift */; };
+		7253DF9F2A3315D600E5DE81 /* CatagoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DF9E2A3315D600E5DE81 /* CatagoryModel.swift */; };
+		7253DFA12A33173700E5DE81 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA02A33173700E5DE81 /* CategoryItemView.swift */; };
+		7253DFA32A33190500E5DE81 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA22A33190500E5DE81 /* CategoryGridView.swift */; };
+		7253DFA52A331AAC00E5DE81 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA42A331AAC00E5DE81 /* SectionView.swift */; };
+		7253DFA72A3325B100E5DE81 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253DFA62A3325B100E5DE81 /* TitleView.swift */; };
 		725BF10E2A323DED00DA6A22 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF10D2A323DED00DA6A22 /* LaunchScreenView.swift */; };
 		725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF10F2A32D42500DA6A22 /* PlayerModel.swift */; };
 		725BF1122A32D48600DA6A22 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */; };
@@ -42,6 +47,11 @@
 		7253DF952A330EAC00E5DE81 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		7253DF962A330EAC00E5DE81 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		7253DF9C2A330FA200E5DE81 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		7253DF9E2A3315D600E5DE81 /* CatagoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryModel.swift; sourceTree = "<group>"; };
+		7253DFA02A33173700E5DE81 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		7253DFA22A33190500E5DE81 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		7253DFA42A331AAC00E5DE81 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		7253DFA62A3325B100E5DE81 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		725BF10D2A323DED00DA6A22 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		725BF10F2A32D42500DA6A22 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -126,6 +136,10 @@
 				7212A7DE2A3222D20059624F /* LogoView.swift */,
 				725BF1132A32D6CA00DA6A22 /* FeaturedItemView.swift */,
 				7253DF9C2A330FA200E5DE81 /* FeaturedTabView.swift */,
+				7253DFA02A33173700E5DE81 /* CategoryItemView.swift */,
+				7253DFA22A33190500E5DE81 /* CategoryGridView.swift */,
+				7253DFA42A331AAC00E5DE81 /* SectionView.swift */,
+				7253DFA62A3325B100E5DE81 /* TitleView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -141,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				725BF10F2A32D42500DA6A22 /* PlayerModel.swift */,
+				7253DF9E2A3315D600E5DE81 /* CatagoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,15 +261,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7253DFA32A33190500E5DE81 /* CategoryGridView.swift in Sources */,
 				7212A7B22A320F1A0059624F /* ContentView.swift in Sources */,
+				7253DFA52A331AAC00E5DE81 /* SectionView.swift in Sources */,
 				7212A7DF2A3222D20059624F /* LogoView.swift in Sources */,
 				725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */,
 				725BF10E2A323DED00DA6A22 /* LaunchScreenView.swift in Sources */,
 				7212A7DB2A321D250059624F /* FooterView.swift in Sources */,
+				7253DFA72A3325B100E5DE81 /* TitleView.swift in Sources */,
 				7212A7B02A320F1A0059624F /* TouchdownApp.swift in Sources */,
 				7253DF9D2A330FA200E5DE81 /* FeaturedTabView.swift in Sources */,
 				7212A7D92A321C2B0059624F /* Constant.swift in Sources */,
 				725BF1142A32D6CA00DA6A22 /* FeaturedItemView.swift in Sources */,
+				7253DF9F2A3315D600E5DE81 /* CatagoryModel.swift in Sources */,
+				7253DFA12A33173700E5DE81 /* CategoryItemView.swift in Sources */,
 				7212A7DD2A3221840059624F /* NavigationBarView.swift in Sources */,
 				725BF1122A32D48600DA6A22 /* CodableBundleExtension.swift in Sources */,
 			);
