@@ -8,28 +8,54 @@
 import SwiftUI
 
 struct ProductDetailView: View {
+  // MARK: - PROPERTIES
   var body: some View {
     VStack(alignment: .leading, spacing: 5) {
       //NAVBAR
       NavigationBarDetailView()
-        .padding()
+        .padding(.horizontal)
+        .padding(.top, UIApplication
+          .shared
+          .connectedScenes
+          .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+          .first { $0.isKeyWindow }?.safeAreaInsets.top)
       //HEADER
       HeaderDetailView()
         .padding(.horizontal)
       //DETAIL TOP PART
       TopPartDetailView()
+        .zIndex(1)
         .padding(.horizontal)
       //DETAIL BOTTOM PART
+      VStack(alignment: .center, spacing: 0) {
 
-      //RATINGS + SIZES
-
-      //DESCRIPTION
-
-      //QUANTITY + FAVORITE
-
-      //ADD TO CART
-      Spacer()
-    }
+        //RATINGS + SIZES
+        RatingsSizesDetailView()
+          .padding(.top , -20)
+          .padding(.bottom, 10)
+        //DESCRIPTION
+        ScrollView(.vertical, showsIndicators: false) {
+          Text(sampleProduct.description)
+            .font(.system(.body, design: .rounded))
+            .foregroundColor(.gray)
+            .multilineTextAlignment(.leading)
+        }//SCROLL
+        //QUANTITY
+        QuantityFavouriteDetailView()
+          .padding(.vertical, 10)
+        //ADD TO CART
+        AddToCartDetailView()
+          .padding(.vertical, 20)
+        Spacer()
+      }//: VSTACK
+      .padding(.horizontal)
+      .background(
+        Color.white
+        .clipShape(CustomShape())
+        .padding(.top, -105)
+      )
+    }//: VSTACK
+    .zIndex(0)
     .ignoresSafeArea(.all, edges: .all)
     .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.green)).ignoresSafeArea(.all, edges: .all)
   }//:VSTACK
