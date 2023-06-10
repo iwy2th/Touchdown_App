@@ -34,6 +34,10 @@
 		725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF10F2A32D42500DA6A22 /* PlayerModel.swift */; };
 		725BF1122A32D48600DA6A22 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */; };
 		725BF1142A32D6CA00DA6A22 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725BF1132A32D6CA00DA6A22 /* FeaturedItemView.swift */; };
+		72BCC9852A340BE3003EE607 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCC9842A340BE3003EE607 /* ProductDetailView.swift */; };
+		72BCC9872A340D08003EE607 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCC9862A340D08003EE607 /* NavigationBarDetailView.swift */; };
+		72BCC9892A340E5D003EE607 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCC9882A340E5D003EE607 /* HeaderDetailView.swift */; };
+		72BCC98B2A340F02003EE607 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BCC98A2A340F02003EE607 /* TopPartDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +70,10 @@
 		725BF10F2A32D42500DA6A22 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		725BF1112A32D48600DA6A22 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		725BF1132A32D6CA00DA6A22 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		72BCC9842A340BE3003EE607 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		72BCC9862A340D08003EE607 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		72BCC9882A340E5D003EE607 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		72BCC98A2A340F02003EE607 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 				7212A7AF2A320F1A0059624F /* TouchdownApp.swift */,
 				725BF10D2A323DED00DA6A22 /* LaunchScreenView.swift */,
 				7212A7B12A320F1A0059624F /* ContentView.swift */,
+				72BCC9842A340BE3003EE607 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -160,6 +169,9 @@
 		7212A7D42A321BC40059624F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				72BCC9862A340D08003EE607 /* NavigationBarDetailView.swift */,
+				72BCC9882A340E5D003EE607 /* HeaderDetailView.swift */,
+				72BCC98A2A340F02003EE607 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -284,11 +296,15 @@
 				725BF1102A32D42500DA6A22 /* PlayerModel.swift in Sources */,
 				725BF10E2A323DED00DA6A22 /* LaunchScreenView.swift in Sources */,
 				7253DFB22A33328D00E5DE81 /* BrandGridView.swift in Sources */,
+				72BCC9892A340E5D003EE607 /* HeaderDetailView.swift in Sources */,
+				72BCC98B2A340F02003EE607 /* TopPartDetailView.swift in Sources */,
 				7212A7DB2A321D250059624F /* FooterView.swift in Sources */,
 				7253DFA72A3325B100E5DE81 /* TitleView.swift in Sources */,
+				72BCC9872A340D08003EE607 /* NavigationBarDetailView.swift in Sources */,
 				7253DFAC2A33280B00E5DE81 /* ProductItemView.swift in Sources */,
 				7212A7B02A320F1A0059624F /* TouchdownApp.swift in Sources */,
 				7253DF9D2A330FA200E5DE81 /* FeaturedTabView.swift in Sources */,
+				72BCC9852A340BE3003EE607 /* ProductDetailView.swift in Sources */,
 				7212A7D92A321C2B0059624F /* Constant.swift in Sources */,
 				725BF1142A32D6CA00DA6A22 /* FeaturedItemView.swift in Sources */,
 				7253DF9F2A3315D600E5DE81 /* CatagoryModel.swift in Sources */,
