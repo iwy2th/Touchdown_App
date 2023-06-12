@@ -15,6 +15,7 @@ struct LaunchScreenView: View {
   var body: some View {
     if isChangeView {
       ContentView()
+        .environmentObject(Shop())
     } else {
       VStack {
         HStack {

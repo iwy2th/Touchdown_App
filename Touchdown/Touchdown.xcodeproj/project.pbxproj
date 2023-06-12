@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721224D92A36E5EA00CB3767 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721224D82A36E5EA00CB3767 /* Shop.swift */; };
 		7212A7B02A320F1A0059624F /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A7AF2A320F1A0059624F /* TouchdownApp.swift */; };
 		7212A7B22A320F1A0059624F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7212A7B12A320F1A0059624F /* ContentView.swift */; };
 		7212A7B42A320F1B0059624F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7212A7B32A320F1B0059624F /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721224D82A36E5EA00CB3767 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		7212A7AC2A320F1A0059624F /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7212A7AF2A320F1A0059624F /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		7212A7B12A320F1A0059624F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			children = (
 				7212A7D82A321C2B0059624F /* Constant.swift */,
 				72BCC98C2A341238003EE607 /* CustomShape.swift */,
+				721224D82A36E5EA00CB3767 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				72BCC9912A341D14003EE607 /* QuantityFavouriteDetailView.swift in Sources */,
 				7253DFA32A33190500E5DE81 /* CategoryGridView.swift in Sources */,
 				7212A7B22A320F1A0059624F /* ContentView.swift in Sources */,
+				721224D92A36E5EA00CB3767 /* Shop.swift in Sources */,
 				7253DFA52A331AAC00E5DE81 /* SectionView.swift in Sources */,
 				7253DFAA2A33277700E5DE81 /* ProductModel.swift in Sources */,
 				7212A7DF2A3222D20059624F /* LogoView.swift in Sources */,
